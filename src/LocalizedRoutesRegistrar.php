@@ -61,9 +61,9 @@ class LocalizedRoutesRegistrar
 
             // Add a URL prefix to the route group, unless
             // the locale is configured to be omitted.
-            if ( ! $usingDomains && $locale !== $omittedLocale) {
-                $attributes['prefix'] = $domainOrSlug;
-            }
+            // if ( ! $usingDomains && $locale !== $omittedLocale) {
+            //    $attributes['prefix'] = $domainOrSlug;
+            //}
 
             // Temporarily change the active locale, so any
             // translations made in the routes closure are
